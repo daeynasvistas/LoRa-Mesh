@@ -11,15 +11,13 @@ As redes em mesh, podem-se organizar de forma dinâmica, através da capacidade 
 
 # Como instalar
 
-1. Clonar este repositório:
-
+ Markup : 1. Clonar este repositório:
     ``
       $ git clone https://github.com/daeynasvistas/LoRa-Mesh/
     ``
+          2. Utilizar VisualStudio Code (PlatformIO):
+              1. pode abrir pasta ESP32 e pasta Arduino em projectos separados.         
 
-2. Utilizar VisualStudio Code (PlatformIO):
-
-2.1 pode abrir pasta ESP32 e pasta Arduino em projectos separados.
 
 ## Configuração
 
