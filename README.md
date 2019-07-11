@@ -18,6 +18,7 @@ As redes em mesh, podem-se organizar de forma dinâmica, através da capacidade 
     ``
 
 2. Utilizar VisualStudio Code (PlatformIO):
+
 2.1 pode abrir pasta ESP32 e pasta Arduino em projectos separados.
 
 ## Configuração
