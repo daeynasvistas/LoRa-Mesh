@@ -9,6 +9,9 @@
 Uma rede mesh é essencialmente caracterizada por uma tipologia em que todos os nós da infraestrutura de rede comunicam diretamente entre eles,  de forma dinâmica, sem ter em conta qualquer hierarquicamente. Assim, os nós cooperam uns com os outros, de forma a rotear os dados de forma eficiente. Essa falta de dependência entre nós permite que cada um participe na transmissão e receção de informação entre eles. 
 As redes em mesh, podem-se organizar de forma dinâmica, através da capacidade que possuem em se autoconfiguração, permitindo a distribuição dinâmica de fluxos de informação, principalmente em situações de falhas num desses nós.
 
+
+![66425186_342349106659933_6656448965128486912_n](https://user-images.githubusercontent.com/2634610/60983592-1a831000-a332-11e9-8a30-94f3efa8b5b1.png)
+
 # Como instalar
 
 1. Clonar este repositório:
