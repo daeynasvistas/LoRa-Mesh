@@ -28,7 +28,7 @@ ESP32 inclui libraria para BME e Arduino para DHT11
 #### método makeDate()
 O projeto utiliza a libraria  #include <ArduinoJson.h> para construir o JSON que é enviado em cada Node, incluia ou altere os que pretender.
 
-``c++
+```` C++
 void makeData(){
 // add some values
 array.add(MAC); //<- Lora MAC
@@ -49,18 +49,18 @@ array.add(0);
  serializeJson(doc, Serial);
  Serial.println("");
 }
-    ``
+```` 
  
 #### valor máximo de Nodes e Sink
 32 como máximo na tabela de vizinhos .. ou simplesmente alterar parra array dinámico
 
-    ``C++
+```` C++
 byte const maxTableArrayVizinhos = 32; // quantidade de vizinhos pode ser aumentada conform memoria dispo
 byte myNeighbours[maxTableArrayVizinhos] = {}; // address of vizinhos directos
 
 byte const maxTableArrayServers = 4; // quantidade de servidores ao qual tenho acesso pode ser aumentada
 byte myServers[maxTableArrayServers]     = {}; // address dos servidores que encontrei
-    ``
+```` 
     
 
 
