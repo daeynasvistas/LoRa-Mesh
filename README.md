@@ -68,7 +68,6 @@ byte myServers[maxTableArrayServers]     = {}; // address dos servidores que enc
 ![11111](https://user-images.githubusercontent.com/2634610/61074580-eed65780-a40f-11e9-9fa3-6fde67381412.png)
 ![44444](https://user-images.githubusercontent.com/2634610/61074581-eed65780-a40f-11e9-9940-dfcf29cd303c.png)
 ![222222](https://user-images.githubusercontent.com/2634610/61074582-eed65780-a40f-11e9-83aa-3f5635a4c156.png)
-![333333](https://user-images.githubusercontent.com/2634610/61074584-ef6eee00-a40f-11e9-9df7-6667a954be2c.png)
 ![55555](https://user-images.githubusercontent.com/2634610/61074779-673d1880-a410-11e9-966f-bb56eeb5b416.png)
 
 
