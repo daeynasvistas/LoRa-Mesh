@@ -154,5 +154,9 @@ O node Sink é responsável por enviar o JSON... por Lora (gateway), por MQTT ou
 ![222222](https://user-images.githubusercontent.com/2634610/61074582-eed65780-a40f-11e9-83aa-3f5635a4c156.png)
 ![55555](https://user-images.githubusercontent.com/2634610/61074779-673d1880-a410-11e9-966f-bb56eeb5b416.png)
 
+## Desenvolvimento
+![32131231](https://user-images.githubusercontent.com/2634610/61144060-c744c500-a4cb-11e9-807d-61be57d19ee5.png)
+![43423423](https://user-images.githubusercontent.com/2634610/61144061-c7dd5b80-a4cb-11e9-8b39-cf04cf129d4d.png)
+![3232323](https://user-images.githubusercontent.com/2634610/61144063-c7dd5b80-a4cb-11e9-84b6-b61cb2448615.png)
 
 
