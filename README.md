@@ -25,13 +25,22 @@ As redes em mesh, podem-se organizar de forma dinâmica, através da capacidade 
 
 1. Todos os Nodes dispõem de um ID único (EEPROM)
 2. Ao iniciar, é verificado se o Node é SINk (dispõe de acesso à Internet) ou não
+```` C++
+// Este node e servidor
+// 0 = Servidor internet
+// 1 = Vizinho de servidor internet
+// 2 = Vizinho com um Vizinho de um servidor internet 
+byte isServer = getIsServer();
+String nodeFunction[4] = {"SINK","ESTRADA","CAMINHO","SOLTEIRO"};
+````
+
 3. Cada Node envia em BroadCast a sua tabela de Vizinhos a cada 10 mensagens recebidas
- ``
+```` C++
      if(msgCount>10)
     {
       message = sendTable();
       sendMessage(message, 255);
- ``
+```` 
 4. Ao receber a Tabela é verificado se na mesma existe algum SINK (identificado no broadcast Como ID=0)
 ```` C++
      if(msgCount>10)
