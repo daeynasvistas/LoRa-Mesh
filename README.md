@@ -21,7 +21,69 @@ As redes em mesh, podem-se organizar de forma dinâmica, através da capacidade 
 
     2.1. pode abrir pasta ESP32 e pasta Arduino em projectos separados.         
 
+## Como funciona
 
+1. Todos os Nodes dispõem de um ID único (EEPROM)
+2. Ao iniciar, é verificado se o Node é SINk (dispõe de acesso à Internet) ou não
+3. Cada Node envia em BroadCast a sua tabela de Vizinhos a cada 10 mensagens recebidas
+ ``
+     if(msgCount>10)
+    {
+      message = sendTable();
+      sendMessage(message, 255);
+ ``
+4. Ao receber a Tabela é verificado se na mesma existe algum SINK (identificado no broadcast Como ID=0)
+```` C++
+     if(msgCount>10)
+    {
+      message = sendTable();
+      sendMessage(message, 255);
+```` 
+5. É guardada a Tabela de SINK's conhecidas em cada node e conhecida por cada vizinho
+```` C++
+String nodeFunction[4] = {"SINK","ESTRADA","CAMINHO","SOLTEIRO"};
+ ````
+```` C++
+  // Posicionamento dos servidores na mesh
+   switch (incomingMsgHand) {
+   case 0:
+       // statements
+        if(!arrayIncludeElement(myServers,sender,maxTableArrayServers)){
+           Serial.println("Encontrei um SINK! "+sender);
+           arrayAddElement(myServers,sender,maxTableArrayServers);
+           display.drawString(0, 32, "NOVO: " + String(sender)); 
+        }
+      destination = sender;
+      break;
+   case 1:
+       // statements
+        if(!arrayIncludeElement(myNeighbours,sender,maxTableArrayVizinhos)){
+           Serial.println("Encontrei AUTOESTRADA para SINK! "+sender);
+           arrayAddElement(myNeighbours,sender,maxTableArrayVizinhos);
+           display.drawString(0, 32, "NOVO: " + String(sender)); 
+        }
+        if(isServer!=0){
+          destination = sender;
+        }
+       break;
+   case 2:
+       // statements
+       Serial.println("Encontrei CAMINHO para SINK!");
+       break;       
+   default:
+       // statements
+       break;
+   } 
+```` 
+   
+6. É sempre enviado um JSON com valores dos sensores recolhidos para o vizinho mais perto de um SINK
+```` C++
+        }else{
+           // enviar para mais próximo do SINK
+           destination = myNeighbours[0];
+           sendMessage(message, destination);
+        }
+```` 
 ## Configuração
 
 Para configurar deve alterar main.cpp e incluir sensores que predende utilizar.
