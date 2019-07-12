@@ -1,7 +1,6 @@
 <a href="http://mcm.ipg.pt"><img src="http://www.ipg.pt/website/imgs/logotipo_ipg.jpg" title="IPG(MCM)" alt="IPG MCM 2018/19"></a>
 
-![ezgif-1-477448af6497](https://user-images.githubusercontent.com/2634610/60972531-61670a80-a31e-11e9-81d3-3562b2e46e6f.gif)
-![66409814_656639194855027_7186286009187827712_n](https://user-images.githubusercontent.com/2634610/60996390-693da380-a34c-11e9-9300-e9928b95cf10.png)
+![121212](https://user-images.githubusercontent.com/2634610/61129937-74f4ab80-a4ad-11e9-88e8-814fa2e26bc2.png)
 
 
 # LoRa-Mesh
