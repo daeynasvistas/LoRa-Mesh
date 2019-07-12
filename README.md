@@ -4,7 +4,8 @@
 ![121212](https://user-images.githubusercontent.com/2634610/61129937-74f4ab80-a4ad-11e9-88e8-814fa2e26bc2.png?s=100)
 ![MESH_b8](https://user-images.githubusercontent.com/2634610/61143102-379e1700-a4c9-11e9-8ffd-8e10c76f5f57.gif?s=200)
 
-<img src="https://user-images.githubusercontent.com/2634610/61129937-74f4ab80-a4ad-11e9-88e8-814fa2e26bc2.png" width="48">
+<img src="https://user-images.githubusercontent.com/2634610/61129937-74f4ab80-a4ad-11e9-88e8-814fa2e26bc2.png" width="150">
+<img src="https://user-images.githubusercontent.com/2634610/61143102-379e1700-a4c9-11e9-8ffd-8e10c76f5f57.gif" width="150">
 
 # LoRa-Mesh
 
