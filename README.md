@@ -147,6 +147,9 @@ O node Sink é responsável por enviar o JSON... por Lora (gateway), por MQTT ou
 #### Recolha dos valores de todos os Nodes
 ![99999](https://user-images.githubusercontent.com/2634610/61075280-89836600-a411-11e9-84ae-2b8dd8264a53.png)
 
+## SINK a recolher valores dos Vizinhos
+![21121212 50](https://user-images.githubusercontent.com/2634610/61145603-c2821000-a4cf-11e9-8779-347866049d40.png)
+
 
 ## Resultado ESP32
 ![11111](https://user-images.githubusercontent.com/2634610/61074580-eed65780-a40f-11e9-9fa3-6fde67381412.png)
